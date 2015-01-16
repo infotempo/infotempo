@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/histolayout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+        <TableRow android:id="@+id/tableRow0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="   " android:id="@+id/textView0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1dip"></TextView>
+            <TextView android:text="lun" android:id="@+id/nj1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="mar" android:id="@+id/nj2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="mer" android:id="@+id/nj3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="jeu" android:id="@+id/nj4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="ven" android:id="@+id/nj5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="sam" android:id="@+id/nj6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="dim" android:id="@+id/nj7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="1dip"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="S01" android:id="@+id/snum1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="1" android:id="@+id/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="2" android:id="@+id/j2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="3" android:id="@+id/j3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="4" android:id="@+id/j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="5" android:id="@+id/j5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="6" android:id="@+id/j6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="7" android:id="@+id/j7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="S02" android:id="@+id/snum2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="1" android:id="@+id/j8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="2" android:id="@+id/j9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="3" android:id="@+id/j10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="4" android:id="@+id/j11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="5" android:id="@+id/j12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="6" android:id="@+id/j13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="7" android:id="@+id/j14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="S03" android:id="@+id/snum3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="1" android:id="@+id/j15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="2" android:id="@+id/j16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="3" android:id="@+id/j17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="4" android:id="@+id/j18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="5" android:id="@+id/j19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="6" android:id="@+id/j20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="7" android:id="@+id/j21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="S04" android:id="@+id/snum4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="1" android:id="@+id/j22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="2" android:id="@+id/j23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="3" android:id="@+id/j24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="4" android:id="@+id/j25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="5" android:id="@+id/j26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="6" android:id="@+id/j27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="7" android:id="@+id/j28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="S05" android:id="@+id/snum5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center" android:layout_margin="1dip"></TextView>
+            <TextView android:text="1" android:id="@+id/j29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="2" android:id="@+id/j30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="3" android:id="@+id/j31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="4" android:id="@+id/j32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="5" android:id="@+id/j33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="6" android:id="@+id/j34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="7" android:id="@+id/j35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="S06" android:id="@+id/snum6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center"></TextView>
+            <TextView android:text="1" android:id="@+id/j36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="2" android:id="@+id/j37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="3" android:id="@+id/j38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="4" android:id="@+id/j39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="5" android:id="@+id/j40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="6" android:id="@+id/j41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+            <TextView android:text="7" android:id="@+id/j42" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="1dip"></TextView>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="fill_parent" android:weightSum="1" android:gravity="center_horizontal" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+	    <LinearLayout android:id="@+id/linearLayout4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.9" android:weightSum="24">
+	        <TextView android:text="" android:layout_height="wrap_content" android:layout_width="1dip" android:layout_weight="8" android:background="#dddddd" android:gravity="center_horizontal" android:id="@+id/chn"></TextView>
+	        <TextView android:text="" android:layout_height="wrap_content" android:layout_width="1dip" android:layout_weight="8" android:background="#dddddd" android:gravity="center_horizontal" android:id="@+id/chp"></TextView>
+	        <TextView android:text="" android:layout_height="wrap_content" android:layout_width="1dip" android:layout_weight="8" android:background="#dddddd" android:gravity="center_horizontal" android:id="@+id/chc"></TextView>
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

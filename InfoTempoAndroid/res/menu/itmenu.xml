@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:visible="true" android:id="@+id/itempref" android:enabled="true" android:title="Préférences" android:icon="@drawable/ic_emenu_preferences" android:showAsAction="never"></item>
+    <item android:visible="true" android:id="@+id/itemmode" android:enabled="true" android:title="Mode" android:icon="@drawable/ic_emenu_switch" android:showAsAction="never"></item>
+    <item android:visible="true" android:id="@+id/iteminfo" android:enabled="true" android:title="À propos" android:icon="@drawable/ic_emenu_info_details" android:showAsAction="never"></item>
+    <item android:visible="true" android:id="@+id/itemrefresh" android:enabled="true" android:title="Actualiser" android:icon="@drawable/ic_refresh" android:showAsAction="always"></item>
+</menu>

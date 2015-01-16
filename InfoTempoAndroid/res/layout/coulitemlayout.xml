@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:text="TextView" android:layout_height="wrap_content" android:id="@+id/RowTitle" android:layout_width="fill_parent" android:singleLine="true" android:ellipsize="marquee" android:layout_marginBottom="4dp"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:weightSum="1" android:gravity="center_horizontal" android:layout_marginTop="0dp" android:layout_marginBottom="0dp">
+	    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.9" android:weightSum="24">
+	        <TextView android:text="hn" android:layout_height="wrap_content" android:layout_weight="8" android:id="@+id/lhn" android:layout_width="1dip" android:textSize="10sp"></TextView>
+	        <TextView android:text="hp" android:layout_height="wrap_content" android:layout_weight="8" android:id="@+id/lhp" android:layout_width="1dip" android:textSize="10sp"></TextView>
+	        <TextView android:text="hc" android:layout_height="wrap_content" android:layout_weight="8" android:id="@+id/lhc" android:layout_width="1dip" android:textSize="10sp"></TextView>
+	    </LinearLayout>
+	</LinearLayout>    
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="fill_parent" android:weightSum="1" android:gravity="center_horizontal" android:layout_marginTop="0.5dp" android:layout_marginBottom="8dp">
+	    <LinearLayout android:id="@+id/linearLayout4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.9" android:weightSum="24">
+	        <TextView android:text="" android:layout_height="wrap_content" android:layout_width="1dip" android:layout_weight="8" android:background="#dddddd" android:gravity="center_horizontal" android:id="@+id/chn"></TextView>
+	        <TextView android:text="" android:layout_height="wrap_content" android:layout_width="1dip" android:layout_weight="8" android:background="#dddddd" android:gravity="center_horizontal" android:id="@+id/chp"></TextView>
+	        <TextView android:text="" android:layout_height="wrap_content" android:layout_width="1dip" android:layout_weight="8" android:background="#dddddd" android:gravity="center_horizontal" android:id="@+id/chc"></TextView>
+	    </LinearLayout>
+	</LinearLayout>    
+</LinearLayout>

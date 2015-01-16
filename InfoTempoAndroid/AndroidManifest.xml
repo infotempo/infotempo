@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.infotempo"
+      android:versionCode="12"
+      android:versionName="4.03">
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="12"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+    <application android:name="InfoTempoApp" android:icon="@drawable/icon" android:label="@string/app_name"
+     >
+        <activity android:name=".InfoTempoMainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.Sherlock"
+                  android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CouleurDuJourActivity" />
+        <activity android:name=".HistoriqueActivity" />
+        <service android:name="InfoTempoService" android:exported="false">
+	        <intent-filter>
+				<action android:name="com.example.infotempo.InfoTempoService" />
+			</intent-filter>
+        </service>
+        <receiver android:name="InfoTempoBroadcastReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<category android:name="android.intent.category.HOME" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="com.example.infotempo.ACTION_UPDATE" />
+				<action android:name="com.example.infotempo.ACTION_APP_UPDATE" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="InfoTempoWidget">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="com.example.infotempo.ACTION_UPDATE_UI" />
+				<action android:name="com.example.infotempo.ACTION_START_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/infotempo_widget_meta" />
+		</receiver>
+		<activity android:name="AboutActivity"></activity>
+		<activity android:name="ParamActivity" android:theme="@style/Theme.Sherlock"
+		     android:icon="@drawable/ic_settings" android:label="@string/Settings_title">
+		</activity>
+    </application>
+</manifest>

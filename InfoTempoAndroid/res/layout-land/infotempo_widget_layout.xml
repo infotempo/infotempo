@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/infotempo_widget"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/widget_bg_layered"
+  android:padding="3dp"
+  android:layout_margin="1dp">
+  <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/widget_linearLayout0" android:layout_gravity="center" android:orientation="horizontal">
+	  <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/widget_linearLayout1" android:orientation="vertical">
+	  	<LinearLayout android:layout_width="wrap_content" android:layout_height="30dp" android:id="@+id/widget_linearLayout2" android:layout_gravity="center">
+	            <TextView android:layout_height="wrap_content" android:layout_width="42dp" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/widget_lblDt1" android:text="actuel" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="1dp" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+	            <ImageView android:src="@drawable/sun" android:layout_width="22dp" android:id="@+id/widget_imgDayNight" android:layout_height="fill_parent" android:scaleType="fitCenter"></ImageView>
+	    </LinearLayout>
+	  	<LinearLayout android:layout_width="wrap_content" android:layout_height="30dp" android:id="@+id/widget_linearLayout3" android:layout_gravity="center">
+	            <TextView android:layout_height="wrap_content" android:layout_width="42dp" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/widget_lblDt2" android:text="le 00" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="1dp" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+	            <ImageView android:src="@drawable/refresh" android:layout_width="22dp" android:id="@+id/widget_btRefresh" android:layout_height="fill_parent" android:scaleType="fitCenter"></ImageView>
+	    </LinearLayout>
+	  </LinearLayout>
+	  <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/widget_linearLayout4" android:layout_gravity="center" android:orientation="vertical" android:layout_marginLeft="2dp">
+			<TextView android:layout_height="10dp" android:layout_width="22dp" android:textSize="9dp" android:id="@+id/widget_lblCpt1" android:text="000" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="0dp" android:gravity="center" android:layout_marginLeft="1dp"></TextView>
+	        <TextView android:layout_height="10dp" android:layout_width="22dp" android:textSize="9dp" android:id="@+id/widget_lblCptT1" android:text="000" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="0dp" android:gravity="center" android:layout_marginLeft="1dp"></TextView>
+			<TextView android:layout_height="10dp" android:layout_width="22dp" android:textSize="9dp" android:id="@+id/widget_lblCpt2" android:text="000" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="0dp" android:gravity="center" android:layout_marginLeft="1dp"></TextView>
+	        <TextView android:layout_height="10dp" android:layout_width="22dp" android:textSize="9dp" android:id="@+id/widget_lblCptT2" android:text="000" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="0dp" android:gravity="center" android:layout_marginLeft="1dp"></TextView>
+			<TextView android:layout_height="10dp" android:layout_width="22dp" android:textSize="9dp" android:id="@+id/widget_lblCpt3" android:text="000" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="0dp" android:gravity="center" android:layout_marginLeft="1dp"></TextView>
+	        <TextView android:layout_height="10dp" android:layout_width="22dp" android:textSize="9dp" android:id="@+id/widget_lblCptT3" android:text="000" android:textColor="#fff" android:layout_gravity="center_vertical" android:padding="0dp" android:gravity="center" android:layout_marginLeft="1dp"></TextView>
+	  </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

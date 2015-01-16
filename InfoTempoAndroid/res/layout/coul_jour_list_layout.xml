@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:id="@+id/linearView">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Zone EJP" android:id="@+id/bt1ZoneEJP" android:gravity="center" android:padding="8dp" android:visibility="gone" android:onClick="onBtZoneEJPClick" android:clickable="true"></TextView>
+    <ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/listView1"></ListView>
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+		<CheckBox android:text="Me prevenir si demain est rouge" android:layout_width="wrap_content" android:id="@+id/checkBoxAlert" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:onClick="onChkAlertClick"></CheckBox>
+		<TextView android:id="@+id/tvLastUpdLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginTop="10dip" android:text="Dernière màj" android:textAppearance="?android:attr/textAppearanceSmall"/>
+		<TextView android:id="@+id/tvNextUpdLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvLastUpdLabel" android:text="Prochaine màj" android:textAppearance="?android:attr/textAppearanceSmall"/>
+		<TextView android:id="@+id/tvLastUpd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/tvLastUpdLabel" android:layout_toRightOf="@id/tvNextUpdLabel" android:textAppearance="?android:attr/textAppearanceSmall"/>
+		<TextView android:id="@+id/tvNextUpd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/tvNextUpdLabel" android:layout_toRightOf="@id/tvNextUpdLabel" android:textAppearance="?android:attr/textAppearanceSmall"/>
+	</RelativeLayout>
+</LinearLayout>
